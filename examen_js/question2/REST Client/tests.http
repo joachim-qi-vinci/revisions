@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:3000
+
+### 2.1) get a new game without filtering the level
+GET {{baseUrl}}/games/start
+
+### 2.1) get a new game for a specific level
+GET {{baseUrl}}/games/start?level=easy
+
+### 2.2) create a new game result for a user
+
+#### 2.2.a) create the game result by providing a correct score for a user
+POST {{baseUrl}}/games
+Content-Type: application/json
+
+{
+    "username":"Jojo",
+    "score":3,
+    "date": 1704385940552
+}
+
+#### 2.2.b) try to create the game result by provinding a wrong score for a user
+
+POST {{baseUrl}}/games
+Content-Type: application/json
+
+{
+    "username":"Jojo",
+    "score":6,
+    "date": 1704385940552
+}

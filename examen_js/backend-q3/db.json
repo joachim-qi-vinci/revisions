@@ -1,0 +1,44 @@
+{
+  "queries": [
+    {
+      "id": 1,
+      "subject": "chemical reaction",
+      "status": "requested"
+    },
+    {
+      "id": 2,
+      "subject": "learning how to dance rock & roll",
+      "status": "refused"
+    },
+    {
+      "id": 3,
+      "subject": "learning to code in JS",
+      "status": "accepted"
+    },
+    {
+      "id": 4,
+      "subject": "learning asynchroneously programming",
+      "status": "requested"
+    },
+    {
+      "id": 5,
+      "subject": "how the sun influences our planet ?",
+      "status": "requested"
+    },
+    {
+      "id": 6,
+      "subject": "how the sun influences our behaviours ?",
+      "status": "requested"
+    },
+    {
+      "id": 7,
+      "subject": "what's up ?",
+      "status": "refused"
+    },
+    {
+      "id": 8,
+      "subject": "details on using Express.js",
+      "status": "requested"
+    }
+  ]
+}
